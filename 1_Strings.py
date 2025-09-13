@@ -1,5 +1,4 @@
 # 1. Pedir una palabra y mostrarla en mayúsculas, minúsculas y title case.
-
 palabra = input("Ingrese una palabra: ")
 print(palabra.upper())
 print(palabra.lower())
