@@ -22,3 +22,10 @@ print(f"Cantidad debajo del promedio {promedio}: {cantidad_debajo}")
 
 # 12. Dada una lista de palabras, construir otra con las que tengan más de 5 letras.
 
+palabras = ["hola", "como", "estas", "amigo", "facultad", "cumpleaños"]
+nueva = []
+for palabra in palabras:
+    if len(palabra) > 5:
+        nueva.append(palabra)
+
+print(nueva)
